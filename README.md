@@ -12,7 +12,7 @@ Machine Learning project for predicting food delivery time using a Kaggle datase
 
 This project focuses on analyzing a food delivery dataset and preparing it for machine learning. The main goal is to understand the data, clean it, and perform visualization so that it can be used in later phases to build a delivery time prediction model.
 
-This repository currently includes **Phase 1 and Phase 2** of the project.
+This repository currently includes **Phase 1 , Phase 2 and Phase 3** of the project.
 
 ---
 
