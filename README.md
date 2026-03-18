@@ -1,6 +1,3 @@
-Here’s a polished version of your README with **Feature Engineering** added, written in a way that fits your Kaggle project:
-
----
 
 # food-delivery-time-prediction-ml
 
@@ -139,9 +136,3 @@ Roll no: **BCSF23M522**
 Course: **Machine Learning**
 
 Machine Learning Project – Food Delivery Time Prediction
-
----
-
-If you want, I can also **add a small section with an example figure** of feature importance from LightGBM directly in the README for better visual appeal. This makes it more professional for Kaggle.
-
-Do you want me to do that?
