@@ -1,4 +1,9 @@
+Here’s a polished version of your README with **Feature Engineering** added, written in a way that fits your Kaggle project:
+
+---
+
 # food-delivery-time-prediction-ml
+
 Machine Learning project for predicting food delivery time using a Kaggle dataset. The project includes data preprocessing, exploratory data analysis (EDA), feature engineering, and machine learning models to analyze factors affecting delivery time.
 
 # 🍔 Food Delivery Time Prediction using Machine Learning
@@ -88,10 +93,30 @@ Different techniques were used to handle missing values in the dataset:
 Some restaurant coordinates had values **(0,0)** which do not represent real locations. These entries were removed from the dataset.
 
 ---
+# Phase 3: Feature Engineering
 
-## ⏳ Saving Preprocessed Dataset
+## 🛠 Feature Engineering
 
-To save time in future phases, the cleaned dataset was saved in **CSV format**. This allows future notebooks to load the processed dataset directly instead of repeating the entire preprocessing pipeline.
+Feature engineering was performed to enhance the predictive power of the dataset:
+
+* **City Area**: Categorized cities into urban, semi-urban, and metropolitan to capture location impact on delivery time.
+* **Cluster Feature**: Created using **K-Means clustering** on scaled numerical features to represent hidden patterns in orders.
+* **Standardization**: All numerical features were scaled to ensure equal importance in the model.
+* **Feature Importance Analysis**: Evaluated features using multiple methods (Random Forest, LightGBM, SelectKBest, Mutual Information, Correlation) to identify the most impactful features.
+* **Dropping Less Important Features**: Columns with very low importance or irrelevant to delivery time (e.g., ID) were dropped to reduce noise and improve model efficiency.
+
+**Significance of Feature Engineering:**
+
+* Helps models learn patterns more effectively.
+* Reduces irrelevant information to improve performance.
+* Generates new insights, such as identifying clusters of similar delivery orders.
+* Prepares data for better accuracy in predictive modeling.
+
+---
+
+## ⏳ Saving Preprocessed and Feature-Engineered Dataset
+
+The final dataset, after preprocessing and feature engineering, was saved in **CSV format**. This ensures future notebooks can load the prepared dataset directly for modeling, saving time and maintaining consistency.
 
 ---
 
@@ -101,6 +126,7 @@ To save time in future phases, the cleaned dataset was saved in **CSV format**. 
 food-delivery-time-prediction-ml
 │
 ├── data pre processing & Visualization.ipynb
+├── final_feature_engineered_data.csv
 └── README.md
 ```
 
@@ -108,8 +134,14 @@ food-delivery-time-prediction-ml
 
 # 👩‍💻 Author
 
-**Kashaf Fatima** Roll no: **BCSF23M522**
+**Kashaf Fatima**
+Roll no: **BCSF23M522**
 Course: **Machine Learning**
 
 Machine Learning Project – Food Delivery Time Prediction
 
+---
+
+If you want, I can also **add a small section with an example figure** of feature importance from LightGBM directly in the README for better visual appeal. This makes it more professional for Kaggle.
+
+Do you want me to do that?
