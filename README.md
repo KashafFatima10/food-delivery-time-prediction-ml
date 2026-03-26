@@ -117,22 +117,6 @@ The final dataset, after preprocessing and feature engineering, was saved in **C
 
 # 📊 Phase-4: Methodology Implementation & Results
 
-## 📌 Project Overview
-
-This phase focuses on implementing the machine learning methodology defined in Phase-1. The objective is to apply data processing, analysis, and modeling techniques on the selected dataset to generate meaningful results.
-
----
-
-## 🎯 Objectives
-
-* Apply complete machine learning workflow on the dataset
-* Analyze data patterns and relationships
-* Train multiple models for prediction
-* Evaluate model performance using suitable metrics
-* Identify the best-performing model
-
----
-
 ## ⚙️ Methodology
 
 The following steps were implemented:
