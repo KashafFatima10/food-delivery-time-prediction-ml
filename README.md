@@ -115,6 +115,84 @@ Feature engineering was performed to enhance the predictive power of the dataset
 
 The final dataset, after preprocessing and feature engineering, was saved in **CSV format**. This ensures future notebooks can load the prepared dataset directly for modeling, saving time and maintaining consistency.
 
+# 📊 Phase-4: Methodology Implementation & Results
+
+## 📌 Project Overview
+
+This phase focuses on implementing the machine learning methodology defined in Phase-1. The objective is to apply data processing, analysis, and modeling techniques on the selected dataset to generate meaningful results.
+
+---
+
+## 🎯 Objectives
+
+* Apply complete machine learning workflow on the dataset
+* Analyze data patterns and relationships
+* Train multiple models for prediction
+* Evaluate model performance using suitable metrics
+* Identify the best-performing model
+
+---
+
+## ⚙️ Methodology
+
+The following steps were implemented:
+
+### 1. Data Collection
+
+The dataset was collected and loaded into the notebook. It contains relevant features required for analysis and prediction.
+
+### 2. Data Preprocessing
+
+* Missing values were handled
+* Categorical variables were encoded
+* Data was cleaned and formatted
+* Feature scaling was applied where necessary
+
+### 3. Feature Engineering
+
+* New features were created from existing data
+* Irrelevant features were removed
+* Important features were selected
+* Data representation was improved for better learning
+
+### 4. Exploratory Data Analysis (EDA)
+
+* Data visualizations were created (histograms, bar charts, heatmaps)
+* Relationships between variables were analyzed
+* Trends, patterns, and outliers were identified
+
+### 5. Model Training
+
+The dataset was split into training and testing sets. The following models were trained:
+
+* Logistic Regression
+* Decision Tree
+* Random Forest
+
+### 6. Model Evaluation
+
+Models were evaluated using:
+
+* Accuracy Score
+* Classification Report
+
+The performance of each model was compared to identify the best one.
+
+---
+
+## 📈 Results
+
+* All models were successfully trained and tested
+* Random Forest (or your best model) achieved the highest accuracy
+* Feature engineering and preprocessing improved model performance
+
+---
+
+## 🧾 Conclusion
+
+The implemented methodology successfully achieved the project objectives. Data preprocessing, feature engineering, and EDA helped in understanding the dataset, while machine learning models provided accurate predictions.
+
+The best-performing model can be used for future predictions and real-world applications.
 ---
 
 # 📁 Project Structure
